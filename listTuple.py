@@ -61,3 +61,15 @@ print("Index of Name:Geesad", l2.index("Name: Geesad"))
 print("Name: Geesad","Name: Geesad" in t2)
 #tuple indexing
 print("Index of Name:Geesad", t2.index("Name: Geesad"))
+
+#List Comprehensions
+#so here is e long method 
+numbers = [1,2,3,4,5]
+square = []
+for num in numbers:
+    squareAdd = num*num
+    square.append(squareAdd)
+print(square)
+#lets use  list comprehensions to do the same thing but simpleWay
+square2 = [(num*num) for num in numbers]
+print(square2)
