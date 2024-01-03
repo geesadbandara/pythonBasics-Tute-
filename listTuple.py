@@ -61,3 +61,10 @@ print("Index of Name:Geesad", l2.index("Name: Geesad"))
 print("Name: Geesad","Name: Geesad" in t2)
 #tuple indexing
 print("Index of Name:Geesad", t2.index("Name: Geesad"))
+
+#listSlciing
+temp = [18, 21, 24, 33, 39, 40, 39, 36, 30, 22, 18]
+print(temp[6:9])
+print(temp[6:])
+print(temp[6])
+print(temp[:6])
