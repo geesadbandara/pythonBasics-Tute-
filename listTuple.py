@@ -68,3 +68,17 @@ print(temp[6:9])
 print(temp[6:])
 print(temp[6])
 print(temp[:6])
+
+#print the square of the nmbers are higher than 2
+numbers = [4, 2, 3, 1, 5]
+square = []
+for num in numbers:
+    if (num>2):
+        squareVal = num**2
+        square.append(squareVal)
+        continue
+print(square)
+
+#lets simplyfy it using the list comprehensions
+squares = [number**2 for number in numbers if number > 2]
+print(squares)
